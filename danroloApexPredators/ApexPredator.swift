@@ -8,6 +8,7 @@
 // Decodable is to stand out that we are going ro fill data from an external data source
 // Identifiable is basically to be able to use it in loops (like providing the key for react by setting "id:")
 import SwiftUI
+import MapKit
 
 struct ApexPredator: Decodable, Identifiable {
     let id: Int
@@ -21,6 +22,10 @@ struct ApexPredator: Decodable, Identifiable {
     
     var image: String {
         name.lowercased().replacingOccurrences(of: " ", with: "")
+    }
+    
+    var location: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
     }
     
     struct MovieScene: Decodable, Identifiable {

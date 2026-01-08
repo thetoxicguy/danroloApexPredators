@@ -6,14 +6,61 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1B2F33AE2F106CE600447703 /* danroloPredatorsStickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1B2F33A72F106CE400447703 /* danroloPredatorsStickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B2F33AC2F106CE600447703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B1C78C82EF1F918002D398E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B2F33A62F106CE400447703;
+			remoteInfo = danroloPredatorsStickers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B2F33B32F106CE600447703 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1B2F33AE2F106CE600447703 /* danroloPredatorsStickers.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1B1C78D02EF1F918002D398E /* danroloApexPredators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = danroloApexPredators.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2F33A72F106CE400447703 /* danroloPredatorsStickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = danroloPredatorsStickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1B2F33AF2F106CE600447703 /* Exceptions for "danroloPredatorsStickers" folder in "danroloPredatorsStickers" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1B2F33A62F106CE400447703 /* danroloPredatorsStickers */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1B1C78D22EF1F918002D398E /* danroloApexPredators */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = danroloApexPredators;
+			sourceTree = "<group>";
+		};
+		1B2F33A82F106CE400447703 /* danroloPredatorsStickers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1B2F33AF2F106CE600447703 /* Exceptions for "danroloPredatorsStickers" folder in "danroloPredatorsStickers" target */,
+			);
+			path = danroloPredatorsStickers;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -33,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				1B1C78D22EF1F918002D398E /* danroloApexPredators */,
+				1B2F33A82F106CE400447703 /* danroloPredatorsStickers */,
 				1B1C78D12EF1F918002D398E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				1B1C78D02EF1F918002D398E /* danroloApexPredators.app */,
+				1B2F33A72F106CE400447703 /* danroloPredatorsStickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,10 +104,12 @@
 				1B1C78CC2EF1F918002D398E /* Sources */,
 				1B1C78CD2EF1F918002D398E /* Frameworks */,
 				1B1C78CE2EF1F918002D398E /* Resources */,
+				1B2F33B32F106CE600447703 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1B2F33AD2F106CE600447703 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				1B1C78D22EF1F918002D398E /* danroloApexPredators */,
@@ -69,6 +120,26 @@
 			productName = danroloApexPredators;
 			productReference = 1B1C78D02EF1F918002D398E /* danroloApexPredators.app */;
 			productType = "com.apple.product-type.application";
+		};
+		1B2F33A62F106CE400447703 /* danroloPredatorsStickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B2F33B02F106CE600447703 /* Build configuration list for PBXNativeTarget "danroloPredatorsStickers" */;
+			buildPhases = (
+				1B2F33A52F106CE400447703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1B2F33A82F106CE400447703 /* danroloPredatorsStickers */,
+			);
+			name = danroloPredatorsStickers;
+			packageProductDependencies = (
+			);
+			productName = danroloPredatorsStickers;
+			productReference = 1B2F33A72F106CE400447703 /* danroloPredatorsStickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
 		};
 /* End PBXNativeTarget section */
 
@@ -81,6 +152,9 @@
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					1B1C78CF2EF1F918002D398E = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					1B2F33A62F106CE400447703 = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
@@ -100,12 +174,20 @@
 			projectRoot = "";
 			targets = (
 				1B1C78CF2EF1F918002D398E /* danroloApexPredators */,
+				1B2F33A62F106CE400447703 /* danroloPredatorsStickers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1B1C78CE2EF1F918002D398E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B2F33A52F106CE400447703 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -123,6 +205,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B2F33AD2F106CE600447703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B2F33A62F106CE400447703 /* danroloPredatorsStickers */;
+			targetProxy = 1B2F33AC2F106CE600447703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1B1C78D92EF1F91A002D398E /* Debug */ = {
@@ -302,6 +392,44 @@
 			};
 			name = Release;
 		};
+		1B2F33B12F106CE600447703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CSSC96UZ8V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = danroloPredatorsStickers/Info.plist;
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danrolo.danroloApexPredators.danroloPredatorsStickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B2F33B22F106CE600447703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CSSC96UZ8V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = danroloPredatorsStickers/Info.plist;
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danrolo.danroloApexPredators.danroloPredatorsStickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -319,6 +447,15 @@
 			buildConfigurations = (
 				1B1C78DC2EF1F91A002D398E /* Debug */,
 				1B1C78DD2EF1F91A002D398E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B2F33B02F106CE600447703 /* Build configuration list for PBXNativeTarget "danroloPredatorsStickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2F33B12F106CE600447703 /* Debug */,
+				1B2F33B22F106CE600447703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
